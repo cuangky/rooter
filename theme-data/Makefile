@@ -27,7 +27,7 @@ define Build/Compile
 endef
 
 define Package/theme-data/install
-	$(CP) ./files/* $(1)/
+	$(CP) ./*/* $(1)/
 
 
 endef
